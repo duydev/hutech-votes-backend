@@ -1,0 +1,47 @@
+{
+  "name": "hutech-votes-backend",
+  "version": "1.0.0",
+  "description": "HUTECH votes backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./",
+    "dev": "NODE_ENV=development nodemon ./",
+    "seed": "node ./src/workers/seed-data.js",
+    "worker:update-votes": "node ./src/workers/update-votes.js",
+    "worker:update-vote-history": "node ./src/workers/update-vote-history.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duydev/socialift-slack-bot.git"
+  },
+  "author": "Tran Nhat Duy <duytn.hcm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duydev/socialift-slack-bot/issues"
+  },
+  "homepage": "https://github.com/duydev/socialift-slack-bot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "compression": "^1.7.4",
+    "config": "^3.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "helmet": "^3.21.3",
+    "json-mask": "^1.0.1",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.28",
+    "morgan": "^1.9.1",
+    "pg": "^8.0.0",
+    "query-string": "^6.11.1",
+    "sequelize": "^5.21.6",
+    "sequelize-paginate": "^1.1.6",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

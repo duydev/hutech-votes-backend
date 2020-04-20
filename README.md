@@ -1,1 +1,1 @@
-socialift-slack-bot
+# HUTECH votes backend

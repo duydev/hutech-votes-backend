@@ -1,0 +1,4 @@
+{
+  "port": 80,
+  "db": "postgres://exvkkwskrpxspi:7e79374e41064831b48f5cf5624a6c117abce3114bc166e3925e66c316ff0df7@ec2-52-87-58-157.compute-1.amazonaws.com:5432/dph2fa54brtrp"
+}
