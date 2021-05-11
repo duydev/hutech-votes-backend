@@ -32,7 +32,7 @@
     "form-data": "^3.0.0",
     "helmet": "^3.21.3",
     "json-mask": "^1.0.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment-timezone": "^0.5.28",
     "morgan": "^1.9.1",
     "pg": "^8.0.0",
