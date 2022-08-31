@@ -33,7 +33,7 @@
     "helmet": "^3.21.3",
     "json-mask": "^1.0.1",
     "lodash": "^4.17.15",
-    "moment-timezone": "^0.5.28",
+    "moment-timezone": "^0.5.35",
     "morgan": "^1.9.1",
     "pg": "^8.0.0",
     "query-string": "^6.11.1",
